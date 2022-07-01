@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    overflow: none;
+    font-size: 16px;
+}
+
+body {
+    font: 400 normal 1.125rem/1.35 "segoe", "Segoe UI", Arial, sans-serif;
+}
+
+header {
+    height: 100vh;
+    background: url("../img/masthead-alt-06-wide-large.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.089);
+    padding: 15px 20%;
+    backdrop-filter: blur(25px);
+}
+
+.nav-item a {
+    text-decoration: none;
+}
+
+.nav-item a:first-child {
+    color: white;
+}
+
+.nav-sign-in {
+    color: #0078d4;
+}
+
+.nav-item:first-child a {
+    margin: auto 0;
+}
+
+.nav-logo-link {
+    display: flex;
+}
+
+.nav-logo-link div:first-child {
+    padding-right: 10px;
+}
+
+.nav-logo-link div, .nav-item:last-child a {
+    font-weight: 500;
+}
+
+.nav-item:last-child a{
+    font-size: 1.0rem;
+    margin: 0 5px;
+    padding: 10px 40px;
+}
+
+.nav-item:last-child a:first-child, .nav-item:last-child a:last-child{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.nav-item:last-child a:first-child{
+    border: 1px solid white;
+}
+
+.nav-item:last-child a:last-child{
+    background-color: white;
+}
+
+.header-outlook {
+    padding: 0 20%;
+    font-size: 2.125rem;
+    margin-top: 30px;
+}
+
+.header-hero-text-container {
+    padding: 0 20%;
+
+}
+
+.header-hero-text-container{
+    position: absolute;
+    width: 100%;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.header-hero-text-container div{
+    font-size: 6.5rem;
+}
+
+.header-container-create-account {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: white;
+    padding: 2rem 40px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.header-create-account:first-child {
+    width: 50%;
+}
+
+.header-create-heading {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.link-header-bottom:link,
+.link-header-bottom:visited {
+    margin-left: 8rem;
+    text-decoration: none;
+    background-color: #0078d4;
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 500;
+    padding: 24px 41px 31px;
+    line-height: 1.1;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.185);
+    position: relative;
+    display: inline-block;
+    transition: transform 400ms;
+    -webkit-transition: transform 400ms;
+    -moz-transition: transform 400ms;
+    -ms-transition: transform 400ms;
+    -o-transition: transform 400ms;
+}
+
+.link-header-bottom:hover,
+.link-header-bottom:active {
+    transform: translateY(-5%);
+    -webkit-transform: translateY(-5%);
+    -moz-transform: translateY(-5%);
+    -ms-transform: translateY(-5%);
+    -o-transform: translateY(-5%);
+}
